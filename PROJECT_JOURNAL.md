@@ -482,3 +482,48 @@ I used Pandas to check duplicate records, missing values, data types, categorica
 
 ---
 
+# Day 3 — Basic Placement Analysis
+
+## Objective
+Analyze placement outcomes and explore relationships between placement and student characteristics using Pandas.
+
+## Work Completed
+
+1. **Calculated the overall placement rate**
+   - Total students: 10,000
+   - Placed students: 1,659
+   - Overall placement rate: 16.59%
+
+2. **Analyzed placement by internship experience**
+   - Without internship: 16.77% placed
+   - With internship: 16.32% placed
+   - Internship experience did not show a higher placement rate in this dataset.
+
+3. **Compared average CGPA by placement outcome**
+   - Placed students: 8.59
+   - Unplaced students: 7.32
+
+4. **Analyzed placement by academic performance**
+   - Placement rates varied across scores from 1 to 10.
+   - No clear increasing trend was observed.
+
+5. **Compared previous-semester results**
+   - Placed students: 8.57 average
+   - Unplaced students: 7.33 average
+
+6. **Analyzed placement by completed projects**
+   - Zero projects: 2.67% placed
+   - One project: 2.05% placed
+   - Two to five projects: approximately 22.50%–24.21% placed
+
+## Key Learning
+
+Practiced using `groupby()`, `value_counts(normalize=True)`, `pd.crosstab()`, and `mean()` to analyze placement data and compare groups.
+
+## Conclusion
+
+In this dataset, placed students had higher average CGPA and previous-semester results. Students with two or more completed projects also had higher placement rates than those with zero or one project. Internship experience showed little difference in placement rates.
+
+These are observed associations, not proof of cause and effect.
+
+
