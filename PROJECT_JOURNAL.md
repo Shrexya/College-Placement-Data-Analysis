@@ -526,4 +526,38 @@ In this dataset, placed students had higher average CGPA and previous-semester r
 
 These are observed associations, not proof of cause and effect.
 
+# Day 4 — Factor Analysis
 
+## Objective
+Analyze different student characteristics and explore their relationships with placement outcomes.
+
+## Work Completed
+
+1. **Communication Skills**
+   - Unplaced students: 5.14
+   - Placed students: 7.66
+   - Placed students had a higher average communication score.
+
+2. **Extracurricular Score**
+   - Unplaced students: 4.98
+   - Placed students: 4.94
+   - Both groups had almost identical average scores.
+
+3. **IQ**
+   - Unplaced students: 97.55
+   - Placed students: 109.12
+   - Placed students had a higher average IQ score.
+
+4. **Academic Performance**
+   - Unplaced students: 5.57
+   - Placed students: 5.45
+   - The averages were very similar, with a slightly higher score among unplaced students.
+
+5. **Projects Completed**
+   - Unplaced students: 2.35
+   - Placed students: 3.35
+   - Placed students completed more projects on average.
+
+6. **IQ by Internship Experience**
+   - Without internship: 99.47
+   - With internship: 99.47
