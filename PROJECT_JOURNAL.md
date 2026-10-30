@@ -633,3 +633,40 @@ Practiced:
 Learned how to convert numerical analysis results into charts for easier interpretation.
 
 
+## Day 6 — SQL Analysis Using MySQL
+
+### Objective
+Perform SQL-based analysis on the college placement dataset using MySQL Workbench and compare the results with the earlier Pandas analysis.
+
+### Work Completed
+
+1. Imported the CSV dataset into MySQL Workbench.
+2. Created and selected the `placement_analysis` database.
+3. Imported the dataset into the `college_student_placement_dataset` table.
+4. Verified the table structure and imported records.
+5. Executed SQL queries to analyse placement patterns.
+
+### SQL Analyses Performed
+
+- Counted placed and non-placed students.
+- Calculated overall placement percentages.
+- Calculated average CGPA by placement status.
+- Compared placement rates based on internship experience.
+- Analysed placement rates based on the number of completed projects.
+- Compared average communication skills by placement status.
+
+### SQL Concepts Practised
+
+`SELECT`, `COUNT()`, `SUM()`, `AVG()`, `ROUND()`, `GROUP BY`, `ORDER BY`, `CASE WHEN`, and subqueries.
+
+### Key Findings
+
+- Overall placement rate: 16.59%.
+- Average CGPA was higher among placed students (approximately 8.59) than non-placed students (approximately 7.32).
+- Students with 2–5 projects had considerably higher placement rates than students with 0–1 projects.
+- Average communication skills were higher among placed students (approximately 7.66) than non-placed students (approximately 5.14).
+- Internship experience groups had similar placement rates.
+
+### Result
+
+Successfully performed SQL analysis using MySQL Workbench. The SQL results matched the corresponding Pandas analysis results, validating the calculations across both tools.
