@@ -561,3 +561,75 @@ Analyze different student characteristics and explore their relationships with p
 6. **IQ by Internship Experience**
    - Without internship: 99.47
    - With internship: 99.47
+   - The average IQ scores were almost identical.
+
+7. **Correlation Analysis**
+   - Compared Communication Skills and Academic Performance using `corr()`.
+   - Correlation coefficient: -0.019733.
+   - This indicates almost no linear correlation between the two variables.
+
+## Key Learning
+
+Practiced using:
+- `groupby()`
+- `mean()`
+- `corr()`
+
+Learned how to compare numerical factors across groups and interpret correlation coefficients.
+
+
+
+# Day 5 — Data Visualization Using Matplotlib
+
+## Objective
+Create visual representations of placement analysis results using Pandas and Matplotlib.
+
+## Work Completed
+
+Created six visualizations:
+
+1. **Student Placement Distribution**
+   - Bar chart showing the number of placed and unplaced students.
+   - Placed: 1,659
+   - Unplaced: 8,341
+
+2. **Placement Percentage Distribution**
+   - Pie chart showing the proportion of placed and unplaced students.
+   - Placed: 16.59%
+   - Unplaced: 83.41%
+
+3. **Average CGPA by Placement Status**
+   - Bar chart comparing average CGPA.
+   - Placed: 8.59
+   - Unplaced: 7.32
+
+4. **Placement Rate by Internship Experience**
+   - Bar chart comparing placement percentages of students with and without internship experience.
+   - Without internship: 16.77%
+   - With internship: 16.32%
+
+5. **Placement Rate by Number of Projects**
+   - Bar chart showing placement percentages for students completing 0–5 projects.
+   - Students with two or more projects had considerably higher placement rates than those with zero or one project.
+
+6. **Average Communication Skills by Placement**
+   - Bar chart comparing average communication scores.
+   - Placed: 7.66
+   - Unplaced: 5.14
+
+## Key Learning
+
+Practiced:
+- `value_counts()`
+- `pd.crosstab()`
+- `groupby()`
+- `plot(kind="bar")`
+- `plot(kind="pie")`
+- `plt.title()`
+- `plt.xlabel()`
+- `plt.ylabel()`
+- `plt.show()`
+
+Learned how to convert numerical analysis results into charts for easier interpretation.
+
+
